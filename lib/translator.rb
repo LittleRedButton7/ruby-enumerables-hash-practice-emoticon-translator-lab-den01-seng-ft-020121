@@ -17,11 +17,11 @@ end
 def get_japanese_emoticon(hash, value)
   # takes in the parameter of an emoticon and outputs the value from the key, value pair 
   #of the outer key,value pair from the load_library method above
+ binding.pry
   hash = load_library(yaml)
     hash.map do |value|
       value_to_print = 
-  binding.pry
-  p " "
+
   end
 end
 
