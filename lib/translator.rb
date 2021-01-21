@@ -22,6 +22,7 @@ def get_japanese_emoticon(hash, value)
       value_to_print = 
   binding.pry
   p " "
+  end
 end
 
 def get_english_meaning
