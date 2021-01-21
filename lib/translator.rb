@@ -14,12 +14,12 @@ def load_library(file_path)
   binding.pry
 end
 
-def get_japanese_emoticon(emoticon)
+def get_japanese_emoticon(lib, emoticon)
   # takes in the parameter of an emoticon and outputs the value from the key, value pair 
   #of the outer key,value pair from the load_library method above
   lib = load_library(yaml)
     lib.map do |emoticon|
-      
+      emoticon = 
     
 end
 
