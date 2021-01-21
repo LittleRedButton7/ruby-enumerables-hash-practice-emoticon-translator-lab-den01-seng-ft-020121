@@ -11,7 +11,7 @@ def load_library(file_path)
     updated_lib[name] = {:english => emoticon_array[0], :japanese => emoticon_array[1]}
   end  
   updated_lib
-  binding.pry
+ 
 end
 
 def get_japanese_emoticon(hash, value)
@@ -20,7 +20,7 @@ def get_japanese_emoticon(hash, value)
   hash = load_library(yaml)
     hash.map do |value|
       value_to_print = 
-    
+  binding.pry
 end
 
 def get_english_meaning
