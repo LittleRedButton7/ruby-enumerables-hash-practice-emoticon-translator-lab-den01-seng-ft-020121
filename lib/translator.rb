@@ -21,6 +21,7 @@ def get_japanese_emoticon(hash, value)
     hash.map do |value|
       value_to_print = 
   binding.pry
+  p " "
 end
 
 def get_english_meaning
