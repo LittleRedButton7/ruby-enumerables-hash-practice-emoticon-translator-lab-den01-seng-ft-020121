@@ -21,7 +21,7 @@ pp hash, value
 
 end
 
-get_japanese_emoticon()
+get_japanese_emoticon("lib/emoticons.yml", "(￣ー￣)")
 
 def get_english_meaning
   # will use load_library
