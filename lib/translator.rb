@@ -4,12 +4,11 @@ require "yaml"
 
 def load_library(file_path)
 
-  emoticon_library = {}
+  updated_lib = {}
   yaml = YAML.load_file(file_path)
  
   yaml.map do |name, emoticon_array|
     updated_lib[name] = {:english => emoticon_array[0], :japanese => emoticon_array[1]}
-    end
   end  
   updated_lib
 end
