@@ -17,7 +17,7 @@ end
 def get_japanese_emoticon(emoticon)
   # takes in the parameter of an emoticon and outputs the value from the key, value pair 
   #of the outer key,value pair from the load_library method above
-  
+  j_emoticon = updated_lib[name][]
 end
 
 def get_english_meaning
