@@ -1,5 +1,5 @@
 # require modules here
-
+require 'pry'
 require "yaml"
 
 def load_library(file_path)
@@ -11,6 +11,7 @@ def load_library(file_path)
     updated_lib[name] = {:english => emoticon_array[0], :japanese => emoticon_array[1]}
   end  
   updated_lib
+  binding.pry
 end
 
 def get_japanese_emoticon(emoticon)
