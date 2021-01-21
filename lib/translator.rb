@@ -18,7 +18,7 @@ def get_japanese_emoticon(lib, emot)
   #emoj = "(-_-)"
   #lib = "lib/emoticons.yml"
   yaml = load_library(lib)
-  pp yaml
+  #yaml = 
 
 end
 
